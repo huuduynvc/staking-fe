@@ -1,0 +1,31 @@
+.footer {
+	@apply w-full;
+	@apply flex text-white flex-col;
+  @apply px-10;
+}
+
+.brandContainer {
+	@apply flex flex-col;
+}
+
+.brand {
+	@apply flex justify-start items-center gap-x-2 py-2;
+}
+
+.web3 {
+	@apply flex justify-start items-center pt-4;
+}
+
+.inputWrapper {
+  @apply min-w-[400px];
+	.input {
+		@apply bg-dark py-6 pl-4 pr-4;
+	}
+}
+
+
+@media (min-width: 639px) {
+  .footer{
+    @apply flex-row justify-between;
+  }
+}

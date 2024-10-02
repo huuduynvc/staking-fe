@@ -1,0 +1,4 @@
+.homepage{
+	@apply h-screen;
+	@apply bg-dark;
+}
